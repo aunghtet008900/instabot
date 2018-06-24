@@ -1,0 +1,21 @@
+#!/usr/bin/bash
+#//Script Kiddies//
+kiddies='\e[1;31m'
+kiddes='\e[1;33m'
+clear
+echo ""
+figlet " INSTABOT " | lolcat
+echo -e $kiddes "#####################"
+echo "     # HANZELNUT # " | lolcat
+echo "  # Hantu Team Cyber # " | lolcat
+echo -e $kiddes "#####################"
+echo -e $kiddies"===================================================" 
+echo " Langsung Bot "  | lolcat
+echo -e $kiddies"==================================================="
+read -p " [ y ]> " insta;
+
+if [ $insta = y ] || [ $insta = y ]
+then
+echo "============================================================"
+python2 example.py;
+fi
